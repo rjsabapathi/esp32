@@ -4,10 +4,10 @@
 #include "addons/RTDBHelper.h"
 #include <LiquidCrystal_I2C.h>
 
-#define WIFI_SSID "JioFi3_7F06DB"
-#define WIFI_PASSWORD "cy1vm4w35f"
-#define API_KEY "AIzaSyDUyxhqYQ3IIu0oIXNVTE27-lhHSTJEGKI"
-#define DATABASE_URL "https://perunthottam-1b8bb-default-rtdb.firebaseio.com/"
+#define WIFI_SSID "SSID"
+#define WIFI_PASSWORD "PASSWORD"
+#define API_KEY "ApI key"
+#define DATABASE_URL "url"
 
 #define LED1_PIN 15
 #define LDR_PIN 36
@@ -168,13 +168,13 @@ void loop()
     {
       lcd.clear();
       lcd.setCursor(1, 1);
-      lcd.print("MOTOR ON");
+      lcd.print("LED  ON");
     }
     else
     {
       lcd.clear();
       lcd.setCursor(1, 1);
-      lcd.print("MOTOR OFF");
+      lcd.print("LED OFF");
     }
   }
 
